@@ -96,11 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .rss-subscribe a {
-  color: darken($sandy, 40%);
+  color: darken($color-secondary-2-1, 40%);
   text-decoration: none;
 
   &:hover {
-    color: $sandy;
+    color: $color-secondary-2-1;
   }
 }
 
