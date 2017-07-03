@@ -23,7 +23,7 @@
     
     border-radius: 1rem;
     padding: 1rem;
-    background-image: radial-gradient(ellipse farthest-corner at 20rem 12rem, $sandy 0%, $brand-color-light 50%, $brand-color 85%);
+    background-color: $color-secondary-1-1;
     
     p {
       color: $grey-color-dark;
@@ -49,11 +49,11 @@
 .post-link {
   display: block;
   font-size: 1.5rem;
-  color: $sandy;
+  color: $color-secondary-2-1;
   text-decoration: none;
 
   &:hover {
-    color: darken($sandy, 20%);
+    color: darken($color-secondary-2-1, 20%);
     text-decoration: underline;
   }
 }
