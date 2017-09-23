@@ -1,7 +1,7 @@
 .site-header {
   @include flexy(column, flex-start, center);
   height: 6rem;
-  background-image: radial-gradient(ellipse farthest-corner at 25rem 3rem, #89AC9D 0%, $brand-color 75%);
+  background-color: $color-primary-4;
   padding: 0 $spacing-unit;
   
   @include mq(small-medium) {
@@ -15,15 +15,15 @@
   letter-spacing: -1px;
   margin: 0;
   margin-right: 0;
-  color: $sandy;
+  color: $color-secondary-2-1;
   text-decoration: none;
 
   &:visited {
-    color: darken($sandy, 10%);
+    color: darken($color-secondary-2-1, 10%);
   }
 
   &:hover {
-    color: darken($sandy, 20%);
+    color: darken($color-secondary-2-1, 20%);
     text-decoration: underline;
   }
 
@@ -37,12 +37,12 @@
 
   .page-link {
     margin: 0 1rem;
-    color: $sandy;
+    color: $color-secondary-2-1;
     text-decoration: none;
     line-height: $base-line-height;
 
     &:hover {
-      color: darken($sandy, 20%);
+      color: darken($color-secondary-2-1, 20%);
       text-decoration: underline;
     }
   }
